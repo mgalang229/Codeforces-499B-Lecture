@@ -29,7 +29,7 @@ int main() {
 		}
 		int x = p.first.size();
 		int y = p.second.size();
-		if (x == y || x < y) { // choose the first language if it's size if less than or equal to the second
+		if (x == y || x < y) { // choose the first language if it's size is less than or equal to the second
 		 res.push_back(p.first);
 		} else { // otherwise, choose the second language
 			res.push_back(p.second);
